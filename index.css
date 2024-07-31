@@ -1,0 +1,49 @@
+
+/* 3. eliminating the margin in the main section */
+/* * {
+    margin: 0;
+} */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px; /* 1. reduced margin, couldnt leave it blank bc of default*/
+    /* 8. center text-align here and remove everywhere else */
+    text-align: center;
+}
+
+  
+header, footer {
+    background-color: black;
+    color: white;
+    /* 7. increase padding on header and footer */
+    padding: 20px;
+}
+  
+nav {
+        /* 4. eliminate margin from the nav bar */
+    /* margin: 20px 0; */
+    background-color: rgb(250, 231, 231); /* 2.changing background color for the header */
+    /* 5. add padding top and bottom. */
+    padding: 20px 0;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: darkgreen;
+}
+
+/* 3. eliminate margin at the bottom of the main. */
+/* main {
+margin: 20px 0;
+} */
+
+section {
+    background-color: lightgrey;
+    /* 6. Add padding to the sections */
+    padding: 20px;
+}
+/* 9. change the about section for a lighter grey */
+#about {
+    background-color: rgb(228, 226, 226);
+}
